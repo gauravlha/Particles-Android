@@ -19,15 +19,15 @@
     </declare-styleable>
 
     <declare-styleable name="CustomSnowParticlesView">
-        <attr name="frameRate" format="integer" />
-        <attr name="numberOfBalls" format="integer" />
-        <attr name="yVelocityLowerLimit" format="integer" />
-        <attr name="yVelocityUpperLimit" format="integer" />
-        <attr name="paintAlphaLowerLimit" format="integer" />
-        <attr name="paintAlphaUpperLimit" format="integer" />
-        <attr name="ballSizeLowerLimit" format="integer" />
-        <attr name="ballSizeUpperLimit" format="integer" />
-        <attr name="circleColorName" format="color"/>
+        <attr name="frameRateSnow" format="integer" />
+        <attr name="numberOfBallsSnow" format="integer" />
+        <attr name="yVelocityLowerLimitSnow" format="integer" />
+        <attr name="yVelocityUpperLimitSnow" format="integer" />
+        <attr name="paintAlphaLowerLimitSnow" format="integer" />
+        <attr name="paintAlphaUpperLimitSnow" format="integer" />
+        <attr name="ballSizeLowerLimitSnow" format="integer" />
+        <attr name="ballSizeUpperLimitSnow" format="integer" />
+        <attr name="circleColorNameSnow" format="color"/>
     </declare-styleable>
 
 </resources>

@@ -48,15 +48,15 @@ public class CustomSnowParticlesView extends View {
 
         TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.CustomSnowParticlesView, 0, 0);
         try {
-            particlesProperties.setFrameRate(ta.getInteger(R.styleable.CustomSnowParticlesView_frameRate, 5));
-            particlesProperties.setNumberOfBalls(ta.getInteger(R.styleable.CustomSnowParticlesView_numberOfBalls, 50));
-            particlesProperties.setyVelocityLowerLimit(ta.getInteger(R.styleable.CustomSnowParticlesView_yVelocityLowerLimit, 1));
-            particlesProperties.setyVelocityUpperLimit(ta.getInteger(R.styleable.CustomSnowParticlesView_yVelocityUpperLimit, 5));
-            particlesProperties.setPaintAlphaLowerLimit(ta.getInteger(R.styleable.CustomSnowParticlesView_paintAlphaLowerLimit, 100));
-            particlesProperties.setPaintAlphaUpperLimit(ta.getInteger(R.styleable.CustomSnowParticlesView_paintAlphaUpperLimit, 255));
-            particlesProperties.setBallSizeLowerLimit(ta.getInteger(R.styleable.CustomSnowParticlesView_ballSizeLowerLimit, 5));
-            particlesProperties.setBallSizeUpperLimit(ta.getInteger(R.styleable.CustomSnowParticlesView_ballSizeUpperLimit, 10));
-            particlesProperties.setCircleColor(ta.getColor(R.styleable.CustomSnowParticlesView_circleColorName, getResources().getColor(android.R.color.black)));
+            particlesProperties.setFrameRate(ta.getInteger(R.styleable.CustomSnowParticlesView_frameRateSnow, 5));
+            particlesProperties.setNumberOfBalls(ta.getInteger(R.styleable.CustomSnowParticlesView_numberOfBallsSnow, 50));
+            particlesProperties.setyVelocityLowerLimit(ta.getInteger(R.styleable.CustomSnowParticlesView_yVelocityLowerLimitSnow, 1));
+            particlesProperties.setyVelocityUpperLimit(ta.getInteger(R.styleable.CustomSnowParticlesView_yVelocityUpperLimitSnow, 5));
+            particlesProperties.setPaintAlphaLowerLimit(ta.getInteger(R.styleable.CustomSnowParticlesView_paintAlphaLowerLimitSnow, 100));
+            particlesProperties.setPaintAlphaUpperLimit(ta.getInteger(R.styleable.CustomSnowParticlesView_paintAlphaUpperLimitSnow, 255));
+            particlesProperties.setBallSizeLowerLimit(ta.getInteger(R.styleable.CustomSnowParticlesView_ballSizeLowerLimitSnow, 5));
+            particlesProperties.setBallSizeUpperLimit(ta.getInteger(R.styleable.CustomSnowParticlesView_ballSizeUpperLimitSnow, 10));
+            particlesProperties.setCircleColor(ta.getColor(R.styleable.CustomSnowParticlesView_circleColorNameSnow, getResources().getColor(android.R.color.black)));
 
         } finally {
             ta.recycle();
