@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
+
     <declare-styleable name="CustomParticlesView">
         <attr name="frameRate" format="integer" />
         <attr name="numberOfBalls" format="integer" />
@@ -15,7 +16,18 @@
         <attr name="lineYCoordinateDistance" format="integer" />
         <attr name="circleColorName" format="color"/>
         <attr name="lineColorName" format="color"/>
-
-
     </declare-styleable>
+
+    <declare-styleable name="CustomSnowParticlesView">
+        <attr name="frameRate" format="integer" />
+        <attr name="numberOfBalls" format="integer" />
+        <attr name="yVelocityLowerLimit" format="integer" />
+        <attr name="yVelocityUpperLimit" format="integer" />
+        <attr name="paintAlphaLowerLimit" format="integer" />
+        <attr name="paintAlphaUpperLimit" format="integer" />
+        <attr name="ballSizeLowerLimit" format="integer" />
+        <attr name="ballSizeUpperLimit" format="integer" />
+        <attr name="circleColorName" format="color"/>
+    </declare-styleable>
+
 </resources>
